@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/mysql:5.7.42-debian docker://ccr.ccs.tencentyun.com/windfly/mysql:5.7.42-debian
+         skopeo copy docker://docker.io/mysql:8.0.42-debian docker://ccr.ccs.tencentyun.com/windfly/mysql:5.7.42-debian
          
          
          
