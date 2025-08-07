@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/openjdk:8-jdk-alpine docker://ccr.ccs.tencentyun.com/windfly/openjdk:8-jdk-alpine 
+         skopeo copy docker://docker.io/ubuntu:latest docker://ccr.ccs.tencentyun.com/windfly/ubuntu:latest 
          
          
          
