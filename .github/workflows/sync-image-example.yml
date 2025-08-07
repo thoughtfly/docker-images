@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/ubuntu:latest docker://ccr.ccs.tencentyun.com/windfly/ubuntu:latest 
+         skopeo copy docker://docker.io/postgres:12-bookworm docker://ccr.ccs.tencentyun.com/windfly/postgres:12-debian 
          
          
          
